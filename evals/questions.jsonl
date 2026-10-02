@@ -1,0 +1,4 @@
+{"note_id":"NT-11","expected_route":"urgent_callback","expected_citation":"Chest tightness since 2am."}
+{"note_id":"NT-12","expected_route":"blocked_consent","expected_citation":"data/notes.csv#NT-12","body_forbidden":"Sore throat"}
+{"note_id":"NT-13","expected_route":"nurse_queue","expected_citation":"data/notes.csv#NT-13"}
+{"note_id":"NT-14","expected_route":"urgent_callback","expected_citation":"Bleeding from a cut"}

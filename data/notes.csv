@@ -1,0 +1,5 @@
+note_id,patient_token,consent,text
+NT-11,PT-104,yes,Chest tightness since 2am. Inhaler already used did not change it.
+NT-12,PT-220,no,Sore throat for two days.
+NT-13,PT-118,yes,Refill request for a daily blood pressure medication.
+NT-14,PT-301,yes,Bleeding from a cut that will not stop.
