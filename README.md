@@ -71,3 +71,11 @@ python -m clinic NT-11
 - [Readout](docs/03-readout.md)
 
 This does not claim fewer adverse events. The shadow-week number is: every note without consent stays blocked, and the nurse lead agrees with the route on at least 9 of 10 reviewed notes.
+
+## Documentation checks
+
+Project architecture, interview guides, and local source links are checked automatically on pushes and pull requests. Run the same check locally:
+
+```bash
+python3 .github/scripts/validate_project_docs.py
+```
