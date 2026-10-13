@@ -1,5 +1,12 @@
 # Northshore after-hours intake
 
+## Overview
+
+A simulated forward deployed engagement for Northshore Clinic, a fictional clinic whose morning nurse read overnight portal notes in arrival order. The tool routes each note instead of diagnosing it: notes without consent are blocked and their text is not copied, urgent notes go to a callback route citing the sentence that triggered it, and the rest go to the nurse queue. Note text never goes to an outside model, and audit events store only note id, route and citation count.
+
+- **Built with:** Python, pytest, Docker, GitHub Actions
+- **Scope:** Simulated engagement with a fictional customer; it claims no drop in adverse events, only that unconsented notes stay blocked and the nurse lead agrees with at least 9 of 10 reviewed routes.
+
 <!-- project-guide:start -->
 ## Project guide
 
